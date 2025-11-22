@@ -1,0 +1,40 @@
+/* ---- DEN BACKGROUND ---- */
+
+body {
+    background: url("https://img.freepik.com/premium-photo/forest-scene-with-forest-scene-with-sun-shining-through-trees_900321-4439.jpg") 
+                no-repeat center fixed;
+    background-size: cover;
+}
+
+/* Optional softening—keeps text readable */
+#main-container {
+    background-color: rgba(0, 0, 0, 0.45);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Optional: make sidebar slightly transparent too */
+.sidebar {
+    background-color: rgba(0, 0, 0, 0.35) !important;
+}
+
+/* Optional: remove the white background behind pack name */
+h1.page-title {
+    background: transparent !important;
+}
+
+/* Optional: soften borders */
+table, .table, .table-row, .table-header, .table-cell {
+    background: transparent !important;
+    border: none !important;
+}
+
+/* Optional: make wolf boxes transparent */
+.feature, .feature-bg, .den-crumb, .cave-grid {
+    background: transparent !important;
+}
+
+/* Optional: adjust text color */
+body, #main-container, .sidebar, .table {
+    color: #f5f5f5 !important;
+}
